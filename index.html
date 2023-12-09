@@ -1,1 +1,40 @@
-<h1> Hello there!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table Design</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer; /* Indicates that a cell is clickable */
+  }
+  .color-fill {
+    background-color: #ADD8E6; /* Light blue background */
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td class="color-fill" onclick="location.href='page1.html';">one</td>
+  </tr>
+  <tr>
+    <td class="color-fill" onclick="location.href='page2.html';">Two</td>
+  </tr>
+  <!-- Add more table rows and cells as needed -->
+</table>
+
+<script>
+  // If you need any JavaScript, you can add it here.
+</script>
+
+</body>
+</html>
