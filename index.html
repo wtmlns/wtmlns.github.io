@@ -3,38 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Table Design</title>
+<title>Page 1</title>
 <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  .table-container {
+    width: auto;
+    margin-left: 0;
+  }
   table {
-    width: 100%;
     border-collapse: collapse;
+    background-color: #87CEEB; /* Light sky blue background for the table */
+    color: #FFFFFF; /* White text color for the table content */
   }
   th, td {
     border: 1px solid black;
     padding: 20px;
-    text-align: center;
-    cursor: pointer; /* Indicates that a cell is clickable */
+    text-align: left;
   }
-  .color-fill {
-    background-color: #ADD8E6; /* Light blue background */
+  .highlight {
+    background-color: #90EE90; /* Light green background for highlight */
   }
 </style>
 </head>
 <body>
 
-<table>
-  <tr>
-    <td class="color-fill" onclick="location.href='page1.html';">one</td>
-  </tr>
-  <tr>
-    <td class="color-fill" onclick="location.href='page2.html';">Two</td>
-  </tr>
-  <!-- Add more table rows and cells as needed -->
-</table>
-
-<script>
-  // If you need any JavaScript, you can add it here.
-</script>
+<div class="table-container">
+  <table>
+    <tr>
+      <td class="highlight" onclick="location.href='theories-as-configs.html';">Theories as Configs</td>
+    </tr>
+    <tr>
+      <td onclick="location.href='on-the-geniology-of-data-engineering.html';">On the geniology of data engineering</td>
+    </tr>
+    <tr>
+      <td onclick="location.href='on-the-geniology-of-machine-learning.html';">On the geniology of Machine learning</td>
+    </tr>
+    <tr>
+      <td onclick="location.href='letting-go-ml.html';">Letting Go (ML)</td>
+    </tr>
+    <tr>
+      <td onclick="location.href='a-song-of-riddles-and-buracracy.html';">A song of riddles and buracracy</td>
+    </tr>
+    <tr>
+      <td onclick="location.href='sankrit.html';">Sanskrit</td>
+    </tr>
+  </table>
+</div>
 
 </body>
 </html>
+
